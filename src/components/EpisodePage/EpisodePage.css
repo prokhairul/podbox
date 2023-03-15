@@ -1,0 +1,203 @@
+.epiall-img-part p {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 160%;
+    color: #4D4D4D;
+}
+
+.epiall-img-part img {
+    border-radius: 10px;
+    margin-bottom: 80px;
+    box-shadow: 6px 6px 0px rgba(0, 0, 0, 0.25);
+}
+
+.epiall-img-part img:hover {
+    transition: 0.5s;
+    box-shadow: 5px 5px 0 #CD4631;
+}
+
+.epi-all-epi-no h3 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 160%;
+    color: #CD4631;
+}
+
+.epi-all-epi-no h4 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 160%;
+    color: #CD4631;
+    border: 1px solid #CD4631;
+    border-radius: 4px;
+    padding: 3px 6px;
+}
+
+.epi-all-main-text h2 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36.65px;
+    line-height: 100%;
+    letter-spacing: -0.02em;
+    color: #000000;
+    margin-bottom: 23px;
+    margin-top: 16px;
+}
+
+
+.epi-all-main-text p {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 160%;
+    color: #4D4D4D;
+}
+
+.epi-all-hero-right {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.epi-page-btn {
+    border: 2px solid #000000;
+    border-radius: 8px;
+    width: 348px;
+    height: 62px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 17px;
+    padding: 10px 20px;
+    background: #F7EDE8;
+    border: 2px solid #000000;
+    box-shadow: 6px 6px 0px rgba(0, 0, 0, 0.25);
+}
+
+.epi-page-btn:hover {
+    transition: 0.5s;
+    box-shadow: 5px 5px 0 #CD4631;
+}
+
+.epi-date-txt p {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 160%;
+    color: #4D4D4D;
+}
+
+.filter-btn {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 22.65px;
+    line-height: 160%;
+    color: #4D4D4D;
+}
+
+.filter-btn ul {
+    display: flex;
+    gap: 140px;
+}
+
+.filter-btn ul li:hover {
+    color: #000000;
+    font-weight: 700;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.epiallimg1 {
+    position: absolute;
+    display: inline-block;
+    top: 10%;
+    z-index: 1;
+}
+
+.epiallimg2 {
+    position: absolute;
+    display: inline-block;
+    left: 90%;
+}
+
+@media screen and (max-width: 768px) {
+    .filter-btn ul {
+        flex-direction: column;
+        gap: 20px;
+        width: 100%;
+    }
+
+    .filter-btn {
+        padding-top: 30px;
+        justify-content: center;
+    }
+
+    .epi-all-epi-no {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .epi-all-epi-no h3 {
+        margin-bottom: 10px;
+        margin-top: 30px;
+    }
+
+    .epi-all-epi-no h4 {
+        margin-bottom: 10px;
+    }
+
+    .epi-all-main-text h2 {
+        font-size: 24px;
+        line-height: 140%;
+    }
+
+    .epiall-btn {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .epi-hero {
+        flex-direction: column;
+    }
+
+    .epiall-img-part {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .epiall-img-part img {
+        width: 100%;
+        margin-bottom: 50px;
+    }
+
+    .epi-page-btn {
+        width: 300px;
+    }
+
+    .epi-hero-main {
+        padding-top: 50px;
+    }
+
+    .epi-text h2 {
+        margin-top: 10px !important;
+        text-align: left !important;
+    }
+
+    .epi-latest-main {
+        margin-top: 50px;
+    }
+
+    .epiallimg1 {
+        display: none;
+    }
+
+    .epiallimg2 {
+        display: none;
+    }
+
+
+}

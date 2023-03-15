@@ -1,0 +1,102 @@
+.hero-btn {
+    border: 2px solid #000000;
+    background: #000000;
+    color: #ffffff;
+    border-radius: 8px;
+    width: 184px;
+    height: 65px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+    margin-top: 60px;
+    box-shadow: 6px 6px 0px rgba(0, 0, 0, 0.25);
+}
+
+.hero-btn:hover {
+    transition: 0.5s;
+    box-shadow: 5px 5px 0 #CD4631;
+}
+
+.hero-middle {
+    padding-top: 85px;
+    text-align: center;
+}
+
+.hero-middle h2 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 96px;
+    line-height: 100%;
+    text-align: center;
+    letter-spacing: -0.04em;
+}
+
+.hero-middle h3 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 96px;
+    line-height: 100%;
+    text-align: center;
+    letter-spacing: -0.04em;
+}
+
+.hero-middle p {
+    margin-top: 40px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 160%;
+    text-align: center;
+    color: #4D4D4D;
+}
+
+.heroimg1 {
+    position: absolute;
+    display: inline-block;
+    top: 10%;
+}
+
+.heroimg2 {
+    position: absolute;
+    display: inline-block;
+    left: 87%;
+}
+
+
+/* Responsive Design Start  */
+
+
+@media screen and (max-width: 768px) {
+
+    .heroimg1 {
+        display: none;
+    }
+
+    .heroimg2 {
+        display: none;
+    }
+
+    .hero-btn {
+        width: 170px;
+        height: 55px;
+        margin-top: 40px;
+    }
+
+    .hero-middle h2 {
+        font-size: 56px;
+        line-height: 100%;
+        text-align: center;
+        letter-spacing: -0.04em;
+    }
+
+    .hero-middle h3 {
+        font-size: 48px;
+    }
+
+    .hero-middle p {
+        margin-top: 30px;
+    }
+
+
+}

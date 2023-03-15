@@ -1,0 +1,62 @@
+[
+    {
+        "title": "Setup your own podcast",
+        "img": "https://khairulislam.com/wp-content/uploads/2023/03/article1.png",
+        "short_d": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minimvel iam, quis nostrud exercitation ullamco laboris...",
+        "tag": "business, startup",
+        "category": "PODCAST",
+        "date": "Feb 06 2023",
+        "type": "Business",
+        "id": "1"
+    },
+    {
+        "title": "Doodle Artwork 101",
+        "img": "https://khairulislam.com/wp-content/uploads/2023/03/article2.png",
+        "short_d": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minimvel iam, quis nostrud exercitation ullamco laboris...",
+        "tag": "art, creative, tips and trick",
+        "category": "TIPS & TRICK",
+        "date": "Mar 03 2023",
+        "type": "News",
+        "id": "2"
+    },
+    {
+        "title": "Mother Nature Taking Over",
+        "img": "https://khairulislam.com/wp-content/uploads/2023/03/article1.png",
+        "short_d": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minimvel iam, quis nostrud exercitation ullamco laboris...",
+        "tag": "business, startup",
+        "category": "PODCAST",
+        "date": "Feb 06 2023",
+        "type": "Tips",
+        "id": "3"
+    },
+    {
+        "title": "How to Be Productive",
+        "img": "https://khairulislam.com/wp-content/uploads/2023/03/article2.png",
+        "short_d": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minimvel iam, quis nostrud exercitation ullamco laboris...",
+        "tag": "art, creative, tips and trick",
+        "category": "TIPS & TRICK",
+        "date": "Mar 03 2023",
+        "type": "Podcast",
+        "id": "4"
+    },
+    {
+        "title": "Podcast Statistics and Data",
+        "img": "https://khairulislam.com/wp-content/uploads/2023/03/article1.png",
+        "short_d": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minimvel iam, quis nostrud exercitation ullamco laboris...",
+        "tag": "business, startup",
+        "category": "PODCAST",
+        "date": "Feb 06 2023",
+        "type": "Productivity",
+        "id": "5"
+    },
+    {
+        "title": "How to Name Your Podcast",
+        "img": "https://khairulislam.com/wp-content/uploads/2023/03/article2.png",
+        "short_d": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minimvel iam, quis nostrud exercitation ullamco laboris...",
+        "tag": "art, creative, tips and trick",
+        "category": "TIPS & TRICK",
+        "date": "Mar 03 2023",
+        "type": "Business",
+        "id": "6"
+    }
+]

@@ -1,0 +1,68 @@
+[
+    {
+        "title": "Pandemic Becoming Endemic",
+        "img": "https://khairulislam.com/wp-content/uploads/2023/03/cover.png",
+        "himg": "https://khairulislam.com/wp-content/uploads/2023/03/host.png",
+        "epno": "Eps. 6",
+        "short": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur ac ultrices odio.",
+        "host": "Hosted by:",
+        "tag": "covid-19, health",
+        "type": "Comedy",
+        "id": "1"
+    },
+    {
+        "title": "Tesla Autopilot Controversy",
+        "img": "https://khairulislam.com/wp-content/uploads/2023/02/cover-1.png",
+        "himg": "https://khairulislam.com/wp-content/uploads/2023/03/host.png",
+        "epno": "Eps. 5",
+        "short": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur ac ultrices odio.",
+        "host": "Hosted by:",
+        "tag": "automation, tech",
+        "type": "Business",
+        "id": "2"
+    },
+    {
+        "title": "Women's Rights? Is it alright?",
+        "img": "https://khairulislam.com/wp-content/uploads/2023/02/cover-4.png",
+        "himg": "https://khairulislam.com/wp-content/uploads/2023/03/host.png",
+        "epno": "Eps. 4",
+        "short": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur ac ultrices odio.",
+        "host": "Hosted by:",
+        "tag": "women's rights",
+        "type": "Education",
+        "id": "3"
+    },
+    {
+        "title": "How to Deal with Self-Confidence",
+        "img": "https://khairulislam.com/wp-content/uploads/2023/02/cover-2.png",
+        "himg": "https://khairulislam.com/wp-content/uploads/2023/03/host.png",
+        "epno": "Eps. 3",
+        "short": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur ac ultrices odio.",
+        "host": "Hosted by:",
+        "tag": "self-esteem, health",
+        "type": "Health",
+        "id": "4"
+    },
+    {
+        "title": "Type of Social Classes of People",
+        "img": "https://khairulislam.com/wp-content/uploads/2023/02/cover-5.png",
+        "himg": "https://khairulislam.com/wp-content/uploads/2023/03/host.png",
+        "epno": "Eps. 2",
+        "short": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur ac ultrices odio.",
+        "host": "Hosted by:",
+        "tag": "social class, wealth",
+        "type": "News",
+        "id": "5"
+    },
+    {
+        "title": "Are you a Perplexed Mind Person?",
+        "img": "https://khairulislam.com/wp-content/uploads/2023/02/cover-5.png",
+        "himg": "https://khairulislam.com/wp-content/uploads/2023/03/host.png",
+        "epno": "Eps. 1",
+        "short": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur ac ultrices odio.",
+        "host": "Hosted by:",
+        "tag": "mind, health",
+        "type": "Tech",
+        "id": "6"
+    }
+]

@@ -1,0 +1,28 @@
+[
+    {
+        "title": "Tesla Autopilot",
+        "img": "./covers/cover 1.png",
+        "id":"1"
+    },
+    {
+        "title": "Self-confidence",
+        "img": "./covers/cover 2.png",
+        "id":"2"
+    },
+    {
+        "title": "Perplexed Mind",
+        "img": "./covers/cover 3.png",
+        "id":"3"
+    },
+    {
+        "title": "Women's Rights",
+        "img": "./covers/cover 4.png",
+        "id":"4"
+    },
+    {
+        "title": "Social Class",
+        "img": "./covers/cover 5.png",
+        "id":"5"
+    }
+
+]

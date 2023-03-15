@@ -1,0 +1,39 @@
+[
+    {
+        "quote": "./testimonials/quote.png",
+        "short":"Lorem ipsum dolor sit amet consectet piscing elit, sed do eiusmod tempor incidi ut labore et dolore magna aliqua. ",
+        "img": "./testimonials/luna.png",
+        "imgtext": "Luna Lovegood,",
+        "himg": "./testimonials/spotifyicon.png",
+        "htext": "spotify",
+        "id":"1"
+    },
+    {
+        "quote": "./testimonials/quote.png",
+        "short":"Lorem ipsum dolor sit amet consectet piscing elit, sed do eiusmod tempor incidi ut labore et dolore magna aliqua. ",
+        "img": "./testimonials/emily.png",
+        "imgtext": "Emily Blunt,",
+        "himg": "./testimonials/google podcast.png",
+        "htext": "spotify",
+        "id":"2"
+    },
+    {
+        "quote": "./testimonials/quote.png",
+        "short":"Lorem ipsum dolor sit amet consectet piscing elit, sed do eiusmod tempor incidi ut labore et dolore magna aliqua. ",
+        "img": "./testimonials/mia.png",
+        "imgtext": "Mia Winters,",
+        "himg": "./testimonials/apple podcast.png",
+        "htext": "spotify",
+        "id":"3"
+    },
+    {
+        "quote": "./testimonials/quote.png",
+        "short":"Lorem ipsum dolor sit amet consectet piscing elit, sed do eiusmod tempor incidi ut labore et dolore magna aliqua. ",
+        "img": "./testimonials/luna.png",
+        "imgtext": "Angie Mos,",
+        "himg": "./testimonials/spotifyicon.png",
+        "htext": "spotify",
+        "id":"4"
+    }
+
+]

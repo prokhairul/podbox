@@ -1,0 +1,129 @@
+.epi-text h2 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 59.3px;
+    line-height: 120%;
+    text-align: center;
+    letter-spacing: -0.02em;
+    margin-top: 140px;
+    margin-bottom: 20px;
+}
+
+.epi-text p {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 22.65px;
+    line-height: 160%;
+    text-align: center;
+    color: #4D4D4D;
+    margin-bottom: 100px;
+}
+
+.ep-text-inner h2 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 19px;
+    line-height: 140%;
+    letter-spacing: -0.02em;
+    color: #CD4631;
+}
+
+.ep-text-inner h2:hover {
+    color: #000000;
+    transition: 0.5s;
+}
+
+.ep-text-inner h3 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 160%;
+    color: #CD4631;
+    margin-top: 33.5px;
+}
+
+.ep-text-inner p {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 160%;
+    color: #4D4D4D;
+}
+
+.epi-btn {
+    background: #000000;
+    color: #ffffff;
+    border-radius: 8px;
+    width: 253px;
+    height: 62px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+    padding: 20px 36px;
+    box-shadow: 6px 6px 0px rgba(0, 0, 0, 0.25);
+}
+
+.epi-btn:hover {
+    transition: 0.5s;
+    box-shadow: 5px 5px 0 #CD4631;
+}
+
+.epi-card:hover {
+    background: #ebd9d6;
+    filter: alpha(opacity=60);
+    transition: 0.5s ease;
+}
+
+/* Responsive Design Start  */
+
+@media screen and (max-width: 768px) {
+    .ep-orna {
+        top: -2.0%;
+        left: 30%;
+    }
+
+    .ep-orna-one {
+        display: none;
+    }
+
+    .epi-text h2 {
+        font-size: 40px;
+    }
+
+    .epi-text p {
+        font-size: 18px;
+        margin-bottom: 70px;
+    }
+
+    .epi-card-main {
+        grid-template-columns: repeat(1, minmax(0, 1fr));
+    }
+
+    .epi-card-top {
+        flex-direction: column;
+    }
+
+    .epi-card-img img {
+        width: 100%;
+        height: 100%;
+    }
+
+    .epi-card-img {
+        padding-top: 0px;
+        padding-left: 0px;
+    }
+
+    .ep-text-inner h3 {
+        margin-top: 5px;
+    }
+
+    .epi-card-bottom {
+        margin-left: 0px;
+    }
+
+    .epi-text{
+        padding-top: 100px;
+    }
+
+}

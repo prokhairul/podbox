@@ -1,0 +1,80 @@
+.articleh2 h2 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 59.3px;
+    line-height: 120%;
+    text-align: center;
+    letter-spacing: -0.02em;
+}
+
+.articleh2 p {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 22.65px;
+    line-height: 160%;
+    text-align: center;
+    color: #4D4D4D;
+    margin-top: 20px;
+    margin-bottom: 100px;
+}
+
+.art-shadow:hover {
+    box-shadow: 10px 10px 0px #CD4631;
+    border-radius: 8px;
+    transition: 0.5s ease;
+}
+
+.art-btn {
+    background: #000000;
+    color: #ffffff;
+    border-radius: 8px;
+    width: 172px;
+    height: 62px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+    padding: 20px 36px;
+    box-shadow: 6px 6px 0px rgba(0, 0, 0, 0.25);
+}
+
+.art-btn:hover {
+    transition: 0.5s;
+    box-shadow: 5px 5px 0 #CD4631;
+}
+
+
+/* responsive Design Start  */
+
+@media screen and (max-width: 768px) {
+    .articleh2 h2 {
+        font-size: 40px;
+        margin-top: 40px;
+    }
+
+    .articleh2 p {
+        font-size: 18px;
+        margin-bottom: 60px;
+    }
+
+    .article-main {
+        flex-direction: column;
+    }
+    .article-card{
+        width: 320px;
+        height: auto;
+        margin-bottom: 20px;
+    }
+
+    .art-img{
+        padding: 10px 10px;
+    }
+
+    .art-title{
+        font-size: 22px;
+    }
+
+    .art-btn{
+        margin-top: 70px;
+    }
+}

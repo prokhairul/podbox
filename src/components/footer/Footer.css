@@ -1,0 +1,108 @@
+ion-icon {
+    font-size: 24px;
+    --ionicon-stroke-width: 16px;
+}
+
+ion-icon:hover {
+    color: #CD4631;
+    transition: 0.5s;
+}
+
+.footer-menu ul {
+    -webkit-column-count: 2;
+    /* Chrome/Opera, Safari */
+    -moz-column-count: 2;
+    /* Mozilla Firefox */
+    column-count: 2;
+
+    /* Properties below are optional: */
+    -webkit-column-gap: 93px;
+    /* Chrome/Opera, Safari */
+    -moz-column-gap: 93px;
+    /* Mozilla Firefox */
+    column-gap: 93px;
+}
+
+.footer-menu ul li {
+    margin-bottom: 20px;
+}
+
+.footer-menu ul li:hover {
+    color: #CD4631;
+    font-weight: 600;
+}
+
+.footer-bt-menu ul li {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 160%;
+    color: #4D4D4D;
+}
+
+.footer-bt-menu ul li:hover {
+
+    color: #CD4631;
+}
+
+.app-icon img:hover {
+    transition: 0.5s;
+    transform: scale(1.2);
+}
+
+.eip-img img:hover {
+    transition: 0.5s;
+    transform: scale(1.2);
+}
+
+/* Design For Scroll Top Button  */
+
+.scroll-top-button {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background: -webkit-linear-gradient(45deg, #f3c5bd 0%, #e86c57 0%, #cd4631 0%, #ff6600 75%, #c72200 100%);
+    color: white;
+    border: none;
+    border-radius: 50%;
+    padding: 10px 10px;
+    cursor: pointer;
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+}
+
+.scroll-top-button:hover {
+    background: -webkit-linear-gradient(45deg, #ea5507 -1%, #feccb1 0%, #f17432 0%, #ea5507 0%, #fb955e 100%);
+}
+
+.scroll-top-button.show {
+    opacity: 1;
+}
+
+.scroll-top-button.hide {
+    opacity: 0;
+}
+
+
+@media screen and (max-width: 768px) {
+
+    .grid-main {
+        grid-template-columns: repeat(1, minmax(0, 1fr));
+    }
+
+    .icon-style {
+        margin-bottom: 40px;
+    }
+
+    .footer-menu {
+        margin-bottom: 30px;
+    }
+
+    .footer-bt-menu {
+        margin-bottom: 60px;
+    }
+
+    .scroll-top-button {
+        bottom: 85px;
+    }
+}
