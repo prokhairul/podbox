@@ -1,0 +1,62 @@
+[
+    {
+        "title": "Setup your own podcast",
+        "img": "./article/ar1.png",
+        "short_d": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minimvel iam, quis nostrud exercitation ullamco laboris...",
+        "tag": "business, startup",
+        "category": "PODCAST",
+        "date": "Feb 06 2023",
+        "type": "Business",
+        "id": "2"
+    },
+    {
+        "title": "Setup your own podcast",
+        "img": "./article/ar2.png",
+        "short_d": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minimvel iam, quis nostrud exercitation ullamco laboris...",
+        "tag": "art, creative, tips and trick",
+        "category": "TIPS & TRICK",
+        "date": "Mar 03 2023",
+        "type": "News",
+        "id": "3"
+    },
+    {
+        "title": "Setup your own podcast",
+        "img": "./article/ar1.png",
+        "short_d": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minimvel iam, quis nostrud exercitation ullamco laboris...",
+        "tag": "business, startup",
+        "category": "PODCAST",
+        "date": "Feb 06 2023",
+        "type": "Tips",
+        "id": "4"
+    },
+    {
+        "title": "Setup your own podcast",
+        "img": "./article/ar2.png",
+        "short_d": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minimvel iam, quis nostrud exercitation ullamco laboris...",
+        "tag": "art, creative, tips and trick",
+        "category": "TIPS & TRICK",
+        "date": "Mar 03 2023",
+        "type": "Podcast",
+        "id": "5"
+    },
+    {
+        "title": "Setup your own podcast",
+        "img": "./article/ar1.png",
+        "short_d": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minimvel iam, quis nostrud exercitation ullamco laboris...",
+        "tag": "business, startup",
+        "category": "PODCAST",
+        "date": "Feb 06 2023",
+        "type": "Productivity",
+        "id": "6"
+    },
+    {
+        "title": "Setup your own podcast",
+        "img": "./article/ar2.png",
+        "short_d": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minimvel iam, quis nostrud exercitation ullamco laboris...",
+        "tag": "art, creative, tips and trick",
+        "category": "TIPS & TRICK",
+        "date": "Mar 03 2023",
+        "type": "Business",
+        "id": "7"
+    }
+]

@@ -19,8 +19,9 @@ import Cta from '../cta/Cta';
 import Footer from '../footer/Footer';
 
 const SingleArticle = () => {
+    const spliceData = singleArticle.splice(0, 4)
+    const [allArticle] = useState(spliceData)
 
-    const [allArticle] = useState(singleArticle)
 
     const [loading, setLoading] = useState(false)
 
@@ -31,6 +32,16 @@ const SingleArticle = () => {
         }, 2000)
 
     }, [])
+    useEffect(() => {
+        scrollUp()
+    }, [])
+
+    const scrollUp = () => {
+        window.scrollTo({
+            top: 0,
+        })
+    }
+
 
     return (
         <div>
@@ -42,7 +53,7 @@ const SingleArticle = () => {
 
                     <div>
                         <div className='container mx-auto flex justify-between items-center mb-[47px] pt-[200px]'>
-                           <Link to='/articles'><p>Back to articles</p></Link>
+                            <Link to='/articles'><p>Back to articles</p></Link>
                             <p>Sep 12, 2023</p>
                         </div>
                         <div className='single-art-title'>
@@ -163,7 +174,7 @@ const SingleArticle = () => {
                         loading ? <div className='flex justify-center items-center mb-[80px]'><GridLoader color="#36d7b7" size={30} /></div> :
                             <div className='article-main flex justify-center gap-[20px]'>
                                 {
-                                    allArticle.slice(4).map((list, index) => (
+                                    allArticle.map((list, index) => (
                                         <div key={index} className='article-card w-[570px] h-[640px] border-2 border-[#000] rounded-lg art-shadow mb-[100px] bg-white'>
                                             <img className='art-img mx-auto pt-[16px]' src={list.img} alt="Article images" />
                                             <div className='pl-[16px] pt-[40px] pr-[16px]'>

@@ -1,0 +1,76 @@
+[
+  {
+    "id": 1,
+    "short_name": "Member",
+    "description": "Lorem ipsum dolor sit amet consectet cing elit, sed do eiusmod tempor. Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur",
+    "whatsInclude": [
+      {
+        "text": "Exclusive Content",
+        "bold": false
+      },
+      {
+        "text": "5% Discount on Merch",
+        "bold": false
+      },
+      {
+        "text": "Join the community",
+        "bold": false
+      },
+      {
+        "text": "Live streaming Access",
+        "bold": false
+      }
+  
+    ],
+    "price": 9.99
+  },
+  {
+    "id": 2,
+    "short_name": "Family",
+    "popo": true,
+    "description": "Lorem ipsum dolor sit amet consectet cing elit, sed do eiusmod tempor. Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur",
+    "whatsInclude": [
+      {
+        "text": "Everything in Tier 1",
+        "bold": true
+      },
+      {
+        "text": "5% Discount on Merch",
+        "bold": false
+      },
+      {
+        "text": "Join the community",
+        "bold": false
+      },
+      {
+        "text": "Live streaming Access",
+        "bold": false
+      }
+    ],
+    "price": 9.99
+  },
+  {
+    "id": 3,
+    "short_name": "Official",
+    "description": "Lorem ipsum dolor sit amet consectet cing elit, sed do eiusmod tempor. Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur",
+    "whatsInclude": [
+      {
+        "text": "Everything in Tier 2",
+        "bold": true
+      },
+      {
+        "text": "5% Discount on Merch",
+        "bold": false
+      },
+      {
+        "text": "Join the community",
+        "bold": false
+      },
+      {
+        "text": "Live streaming Access",
+        "bold": false
+      }
+    ],
+    "price": 9.99
+  }
+]

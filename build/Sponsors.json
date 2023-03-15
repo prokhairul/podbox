@@ -1,0 +1,18 @@
+[
+    {
+        "img": "./sponsors/Google Podcast.png",
+        "quote": "Quis dictum cursus faucibus mattis dignissim. Pellentes que purus in sed sodales in mauris molestie. Eleifend estcon sctetur interdum eu in auctor. Gravida leo et.",
+        "id": "1"
+    },
+    {
+        "img": "./sponsors/Spotify.png",
+        "quote": "Quis dictum cursus faucibus mattis dignissim. Pellentes que purus in sed sodales in mauris molestie. Eleifend estcon sctetur interdum eu in auctor. Gravida leo et.",
+        "id": "1"
+    },
+    {
+        "img": "./sponsors/Youtube.png",
+        "quote": "Quis dictum cursus faucibus mattis dignissim. Pellentes que purus in sed sodales in mauris molestie. Eleifend estcon sctetur interdum eu in auctor. Gravida leo et.",
+        "id": "1"
+    }
+
+]

@@ -16,6 +16,7 @@ const Articles = () => {
             .then(data => setArticle(data))
     }, [])
 
+
     return (
         <div>
             <div className='relative'>
@@ -39,7 +40,7 @@ const Articles = () => {
                                 <img className='art-img mx-auto pt-[16px]' src={list.img} alt="Article images" />
                                 <div className='pl-[16px] pt-[40px] pr-[16px]'>
                                     <h2 className='mb-[6px] font-bold text-[14px] leading-[160%] text-[#4D4D4D]'>{list.category}</h2>
-                                   <Link to='/article'><a href="#"><h1 className='art-title mb-[20px] text-[36.65px] leading-[140%] tracking-[0.02em] font-[700] hover:text-[#CD4631]'>{list.title}</h1></a></Link>
+                                    <Link to='/article'><a href="#"><h1 className='art-title mb-[20px] text-[36.65px] leading-[140%] tracking-[0.02em] font-[700] hover:text-[#CD4631]'>{list.title}</h1></a></Link>
                                     <p className='mb-[20px] text-[14px] leading-[160%] text-[#4D4D4D]'>{list.short_d}</p>
                                 </div>
 
