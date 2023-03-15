@@ -3,6 +3,7 @@ import React, { useEffect, useState } from 'react';
 import './Episodes.css';
 import emiorna from '../../images/covers/Sparkle.png';
 import Scribble from '../../images/testimonials/Scribble.png';
+import { Link } from 'react-router-dom';
 
 const Episodes = () => {
 
@@ -14,13 +15,12 @@ const Episodes = () => {
             .then(data => setEpisode(data))
     }, [])
 
-
     return (
         <div className='relative container mx-auto'>
             <img className='ep-orna-one top-[16%] left-[94%] absolute' src={emiorna} alt="" />
             <img className='ep-orna top-[-6.4%] left-[46%] absolute' src={Scribble} alt="" />
             <img src="" alt="" />
-            
+
             <div className='epi-text'>
                 <h2>Recent Episodes</h2>
                 <p>Available on your favorite platform</p>
@@ -60,7 +60,7 @@ const Episodes = () => {
             </div>
 
             <div className='flex justify-center pb-[140px]'>
-                <a href="#"><button className='epi-btn'>BROWSE ALL EPISODES</button></a>
+                <Link to='/episodes'><a href="#"><button className='epi-btn'>BROWSE ALL EPISODES</button></a></Link>
             </div>
 
         </div>

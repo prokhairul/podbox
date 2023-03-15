@@ -29,6 +29,16 @@ const ArticleContent = () => {
         setFilterData(content)
     }
 
+    useEffect(() => {
+        scrollUp()
+    }, [])
+
+    const scrollUp = () => {
+        window.scrollTo({
+            top: 0,
+        })
+    }
+
 
     if (Showdata) {
         return (

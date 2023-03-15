@@ -19,9 +19,8 @@ import Cta from '../cta/Cta';
 import Footer from '../footer/Footer';
 
 const SingleArticle = () => {
-    const spliceData = singleArticle.splice(0, 4)
+    const spliceData = singleArticle.splice(0, 2)
     const [allArticle] = useState(spliceData)
-
 
     const [loading, setLoading] = useState(false)
 
@@ -32,6 +31,8 @@ const SingleArticle = () => {
         }, 2000)
 
     }, [])
+
+    
     useEffect(() => {
         scrollUp()
     }, [])

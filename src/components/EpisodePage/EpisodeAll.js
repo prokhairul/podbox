@@ -1,6 +1,6 @@
 /* eslint-disable jsx-a11y/anchor-has-content */
 /* eslint-disable jsx-a11y/anchor-is-valid */
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import './EpisodePage.css';
 import Cover from '../../images/covers/cover.png'
 import { MdPlayArrow } from "react-icons/md";
@@ -14,6 +14,16 @@ const EpisodeMain = () => {
     const [allepisode] = useState(fakeData)
     const [filterData, setFilterData] = useState([])
     const [filterStatus, setFilters] = useState(true)
+
+    useEffect(() => {
+        scrollUp()
+    }, [])
+
+    const scrollUp = () => {
+        window.scrollTo({
+            top: 0,
+        })
+    }
     
     const handleType = (btnType) => {
         if (btnType === 'All') {
@@ -24,6 +34,7 @@ const EpisodeMain = () => {
         const content = allepisode.filter(episode => episode.type === btnType)
         setFilterData(content)
     }
+
 
     if (filterStatus) {
         return (

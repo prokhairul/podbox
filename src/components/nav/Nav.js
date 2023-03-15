@@ -34,7 +34,7 @@ const Nav = () => {
                     </nav>
 
                     <div className={isOpen ? "navbar_btn active" : "navbar_btn"}>
-                        <button className='head-btn1'>RECENT EPISODES</button>
+                    <Link to='/episodes'> <button className='head-btn1'>RECENT EPISODES</button></Link>
                         <button className='head-btn2'>SUBSCRIBE</button>
                     </div>
                 </div>
