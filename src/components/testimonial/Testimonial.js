@@ -32,7 +32,7 @@ const Testimonial = () => {
     return (
         <div className='container relative mx-auto'>
             <img className='Scribble top-[-9.3%] left-[46%] md:left-[40%]  absolute' src={Scribble} alt="" />
-            <img className='Sparkle top-[8%] left-[21%] absolute md:hidden' src={Sparkle} alt="" />
+            <img className='Sparkle top-[7%] left-[15%] absolute md:hidden' src={Sparkle} alt="" />
 
             <div className='testi-h2-3'>
                 <h2>What our Listeners say</h2>
