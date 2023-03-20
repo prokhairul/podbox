@@ -49,11 +49,11 @@ const SingleArticle = () => {
             <div className='bg-[#F7EDE8]'> <Nav></Nav> </div>
             <section className='bg-[#F7EDE8] pb-[50px] min-h-screen'>
                 <div>
-                    <div className='heroimg1'><img src={hroimg1} alt="" /></div>
+                    <div className='heroimg1 md:hidden lg:hidden xl:hidden'><img src={hroimg1} alt="" /></div>
                     <div className='heroimg2'><img src={hroimg2} alt="" /></div>
 
                     <div>
-                        <div className='container mx-auto flex justify-between items-center mb-[47px] pt-[200px]'>
+                        <div className='back-to-art container mx-auto flex justify-between items-center mb-[47px] pt-[200px]'>
                             <Link to='/articles'><p>Back to articles</p></Link>
                             <p>Sep 12, 2023</p>
                         </div>
@@ -78,7 +78,7 @@ const SingleArticle = () => {
 
             <section className='container mx-auto'>
                 <div>
-                    <img className='mx-auto rounded-md mt-[50px]' src={art1} alt="" />
+                    <img className='mx-auto rounded-md mt-[50px] pr-[10px] pl-[10px]' src={art1} alt="" />
                 </div>
                 <div>
                     <h2 className='about-his-h2'>Doodle for our podcast background room</h2>
@@ -98,12 +98,12 @@ const SingleArticle = () => {
                 </div>
             </section>
 
-            <section className='mt-[100px] mb-[100px]'>
+            <section className='mt-[100px] mb-[100px] pr-[10px] pl-[10px]'>
                 <div className='container bg-[#F7EDE8] mx-auto rounded-lg h-[366px]'>
                     <img className='about-vector' src={vector4} alt="" />
                     <img className='about-star' src={star4} alt="" />
 
-                    <div className='flex justify-center relative top-[-37%] about-2nd'>
+                    <div className='flex justify-center relative about-2nd'>
                         <div className='best-daily text-center items-center justify-center'>
                             <img className='pt-[40px] mx-auto' src={quote} alt="" />
                             <h2>One of the best daily podcasts that <br /> covers every topic on Spotify.</h2>
@@ -116,7 +116,7 @@ const SingleArticle = () => {
                 </div>
             </section>
 
-            <section className='container mx-auto'>
+            <section className='container mx-auto pl-[10px] pr-[10px]'>
                 <div className='flex justify-between items-center gap-[20px] ml-[20px]'>
                     <div className='single-ul-design'>
                         <h3>Bullet list example:</h3>
@@ -176,11 +176,11 @@ const SingleArticle = () => {
                             <div className='article-main flex justify-center gap-[20px]'>
                                 {
                                     allArticle.map((list, index) => (
-                                        <div key={index} className='article-card w-[570px] h-[640px] border-2 border-[#000] rounded-lg art-shadow mb-[100px] bg-white'>
-                                            <img className='art-img mx-auto pt-[16px]' src={list.img} alt="Article images" />
+                                        <div key={index} className='article-card w-[570px] h-[100%] border-2 border-[#000] rounded-lg art-shadow mb-[100px] bg-white'>
+                                            <img className='art-img mx-auto p-[10px]' src={list.img} alt="Article images" />
                                             <div className='pl-[16px] pt-[40px] pr-[16px]'>
                                                 <h2 className='mb-[6px] font-bold text-[14px] leading-[160%] text-[#4D4D4D]'>{list.category}</h2>
-                                                <a href="#"><h1 className='art-title mb-[20px] text-[32.65px] leading-[140%] tracking-[0.02em] font-[700] hover:text-[#CD4631]'>{list.title}</h1></a>
+                                                <a href="#"><h1 className='art-title mb-[20px] text-[28px] leading-[140%] tracking-[0.02em] font-[700] hover:text-[#CD4631]'>{list.title}</h1></a>
                                                 <p className='mb-[20px] text-[14px] leading-[160%] text-[#4D4D4D]'>{list.short_d}</p>
                                             </div>
 

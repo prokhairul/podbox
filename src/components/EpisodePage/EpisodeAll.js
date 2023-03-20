@@ -194,10 +194,10 @@ const EpisodeMain = () => {
                 </div>
                 <hr className="w-[100%] h-[1.5px] mb-[20px] mx-auto my-1 bg-gray-500 border-0 rounded  dark:bg-gray-700" />
 
-                <div className='epi-card-main grid grid-cols-2 gap-[20px] mb-[150px] mt-[100px]'>
+                <div className='epi-card-main grid grid-cols-2 gap-[10px] mb-[150px] mt-[100px]'>
 
                     {filterData?.map((list, index) => (
-                        <div key={index} className='epi-card border-2 border-[#000000] rounded-lg p-[10px]'>
+                        <div key={index} className='epi-card border-2 border-[#000000] p-[10px]'>
 
                             <div className='epi-card-top flex gap-5'>
                                 <div className='epi-card-img pt-[16px] pl-[16px]'>

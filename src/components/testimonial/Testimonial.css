@@ -22,7 +22,7 @@
 
 .testi-card {
     background: #FFFFFF;
-    width: 470px;
+    width: 380px;
     height: 300px;
     margin-bottom: 60px;
 }
@@ -59,6 +59,18 @@
     }
 
     .testi-card p{
-        padding-right: 130px;
+        padding-right: 20px;
     }
+
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+
+    .testi-card {
+        background: #FFFFFF;
+        width: 480px;
+        height: 300px;
+        margin-bottom: 60px;                                                                                                                                                                                                                                                                                                                                                                                      
+    }
+
 }

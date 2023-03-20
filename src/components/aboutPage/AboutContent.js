@@ -78,14 +78,14 @@ const AboutHero = () => {
                     <h2>What Our Listeners Say</h2>
                     <p>Their Experience Throughout every platform</p>
                 </div>
-                <div className='mx-auto'>
+                <div className='mx-auto pl-[10px] pr-[10px]'>
                     <img className='mx-auto mt-[20px]' src={rodemic} alt="" />
                 </div>
 
                 <div>
                     <h2 className='about-his-h2'>About and History</h2>
 
-                    <div className='about-his-p flex gap-[20px] mb-[80px] justify-center'>
+                    <div className='about-his-p flex gap-[20px] mb-[80px] justify-center pl-[10px] pr-[10px]'>
                         <div className='a-his-w w-[570px]'>
                             <p>Eu non <strong>diam</strong> phasellus vestibulum lorem. Fringilla est ullamcorper eget nulla facilisi etiam dignissim. Id diam vel quam <strong>elementum pulvinar.</strong>
 
@@ -98,7 +98,7 @@ const AboutHero = () => {
 
                     <hr className="w-[81%] h-[1px] mx-auto my-1 bg-gray-500 border-0 rounded  dark:bg-gray-700" />
 
-                    <div className='founder-padding pb-[140px]'>
+                    <div className='founder-padding pb-[140px] pl-[10px] pr-[10px]'>
                         <h2 className='about-his-h2'>Founder and Main Host</h2>
                         <div className='host-main flex gap-[20px] justify-center mx-auto'>
                             <div className='host-main-w flex bg-white border-[1px] border-[#000] rounded-lg p-[16px] w-[570px]'>
@@ -154,7 +154,7 @@ const AboutHero = () => {
                         <p>Our current official sponsor</p>
                     </div>
 
-                    <div className=''>
+                    <div>
                         <Swiper
                             slidesPerView={2}
                             spaceBetween={30}
@@ -175,7 +175,26 @@ const AboutHero = () => {
                                 640: {
                                     slidesPerView: 2,
                                     spaceBetween: 30
+                                },
+
+                                // when window width is >= 769px
+                                769: {
+                                    slidesPerView: 1,
+                                    spaceBetween: 30
+                                },
+
+                                // when window width is >= 992px
+                                992: {
+                                    slidesPerView: 2,
+                                    spaceBetween: 30
+                                },
+
+                                // when window width is >= 1200px
+                                1200: {
+                                    slidesPerView: 2,
+                                    spaceBetween: 30
                                 }
+
                             }}
                             className="mySwiper"
                         >
@@ -189,7 +208,7 @@ const AboutHero = () => {
                             ))}
                         </Swiper>
                     </div>
-                    <div className='flex gap-[15px] pb-[60px] mt-[60px]'>
+                    <div className='md-btn-cls flex gap-[15px] pb-[60px] mt-[60px]'>
                         <img className='testi-button' src={aleft} alt="" id='rightArrow' onClick={handleNext} />
                         <img className='testi-button' src={aright} alt="" id='leftArrow' onClick={handlePrev} />
                     </div>
@@ -213,24 +232,24 @@ const AboutHero = () => {
                             </div>
                             <div className='input-group'>
                                 <label htmlFor="email">Email</label>
-                                <input type="text" id='email' placeholder='Email address'  required />
+                                <input type="text" id='email' placeholder='Email address' required />
                             </div>
                         </div>
 
                         <div className='row'>
                             <div className='input-group'>
                                 <label htmlFor="phone">Phone</label>
-                                <input type="text" id='phone' placeholder='Phone'  required />
+                                <input type="text" id='phone' placeholder='Phone' required />
                             </div>
                             <div className='input-group'>
                                 <label htmlFor="subject">Subject</label>
-                                <input type="text" id='subject' placeholder='Subject...'  required />
+                                <input type="text" id='subject' placeholder='Subject...' required />
                             </div>
                         </div>
 
                         <div className='input-group'>
                             <label htmlFor="message">Message</label>
-                            <textarea name="message" id="message" placeholder='Your Message Goes here'  rows="8"></textarea>
+                            <textarea name="message" id="message" placeholder='Your Message Goes here' rows="8"></textarea>
                         </div>
 
                         <button className='git-btn'>Send Message</button>

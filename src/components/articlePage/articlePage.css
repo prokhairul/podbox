@@ -113,3 +113,56 @@
         margin-top: 40px;
     }
 }
+
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    .heroimg1 {
+        width: 20%;
+        top: 10% !important;
+    }
+
+    .article-main {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+        margin-right: 10px;
+        margin-left: 10px;
+    }
+}
+
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    .back-to-art {
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .about-his-p {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+}
+
+
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+    .article-main {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+        margin-right: 10px;
+        margin-left: 10px;
+    }
+
+    .heroimg1 {
+        width: 20%;
+        top: 10% !important;
+    }
+
+    .about-his-p {
+        padding-left: 10px;
+    }
+
+    .back-to-art {
+        display: flex;
+        justify-content: space-around;
+    }
+
+}

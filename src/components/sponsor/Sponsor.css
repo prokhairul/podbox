@@ -31,6 +31,10 @@
         left: 32%;
     }
 
+    .sponsor-border img {
+        width: 70%;
+    }
+
     .sponsor-main {
         grid-template-columns: repeat(1, minmax(0, 1fr));
     }

@@ -18,11 +18,11 @@ const Articles = () => {
 
 
     return (
-        <div>
+        <div className='md:mt-[140px]'>
             <div className='relative'>
-                <img className='orna-show left-[46%] top-[-78px] absolute' src={Scribble} alt="" />
-                <img className='orna-hidden left-[14.5%] top-[295px] absolute z-[-1]' src={Vector} alt="" />
-                <img className='orna-hidden top-[880px] left-[73%]  absolute' src={Scribbleorn} alt="" />
+                <img className='orna-show left-[46%] top-[-78px] md:left-[43%] absolute' src={Scribble} alt="" />
+                <img className='orna-hidden left-[14.5%] top-[295px] md:hidden lg:hidden absolute z-[-1]' src={Vector} alt="" />
+                <img className='orna-hidden top-[880px] left-[73%] md:hidden lg:hidden absolute' src={Scribbleorn} alt="" />
             </div>
 
             <div className='container mx-auto'>
@@ -33,11 +33,11 @@ const Articles = () => {
                     </div>
                 </div>
 
-                <div className='article-main flex justify-center gap-[20px]'>
+                <div className='article-main flex justify-center gap-[20px] md:pl-[10px] md:pr-[10px] lg:pl-[10px] lg:pr-[10px] pl-[10px] pr-[10px]'>
                     {
                         article.splice(1, 2).map((list, index) => (
-                            <div key={index} className='article-card w-[570px] h-[640px] border-2 border-[#000] rounded-lg art-shadow mb-[100px] bg-white'>
-                                <img className='art-img mx-auto pt-[16px]' src={list.img} alt="Article images" />
+                            <div key={index} className='article-card w-[570px] h-[640px] lg:h-[680px] border-2 border-[#000] rounded-lg art-shadow mb-[100px] bg-white'>
+                                <img className='art-img mx-auto pt-[16px] md:p-[10px] lg:p-[10px]' src={list.img} alt="Article images" />
                                 <div className='pl-[16px] pt-[40px] pr-[16px]'>
                                     <h2 className='mb-[6px] font-bold text-[14px] leading-[160%] text-[#4D4D4D]'>{list.category}</h2>
                                     <Link to='/article'><a href="#"><h1 className='art-title mb-[20px] text-[36.65px] leading-[140%] tracking-[0.02em] font-[700] hover:text-[#CD4631]'>{list.title}</h1></a></Link>

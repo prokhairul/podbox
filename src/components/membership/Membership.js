@@ -15,17 +15,16 @@ const Membership = () => {
 
     return (
         <div className='relative'>
-            <div><img className='mem-orna top-[-20.3%] left-[46%] absolute' src={Scribble} alt="" /></div>
-            <div className='mem-orna-two top-[-17%] left-[59%] absolute'> <img src={scribble} alt="" /> </div>
+            <div><img className='mem-orna top-[-20.3%] left-[46%] md:left-[43%] absolute' src={Scribble} alt="" /></div>
+            <div className='mem-orna-two top-[-17%] left-[59%] absolute md:left-[80%] md:top-[-8%] lg:left-[68%]'> <img src={scribble} alt="" /> </div>
 
-            <div className='container mx-auto'>
+            <div className='container mx-auto md:pr-[10px] md:pl-[10px] lg:pl-[10px] lg:pr-[10px]'>
                 <div className='memberh2 text-center mt-[140px]'>
-                    <h2 className=''>Membership benefits</h2>
-                    <p className=''>Become our sponsor and get all benefits</p>
+                    <h2>Membership benefits</h2>
+                    <p>Become our sponsor and get all benefits</p>
                 </div>
 
                 <div className='member-card-main flex justify-center items-center gap-[20px]'>
-
                     <div className='member-card m-grid-font w-[373px] h-[225px]'>
                         <img className='mx-auto mb-[30px] mt-[10px]' src={group} alt="group" />
                         <h3>Topic by Request</h3>
@@ -41,7 +40,6 @@ const Membership = () => {
                         <h3>Join the Community</h3>
                         <p>Lorem ipsum dolor sit amet consectet pis <br /> cing elit, sed do eiusmod tempor.</p>
                     </div>
-
                 </div>
 
                 <div className='member-card-main flex justify-center items-center mt-[100px] gap-[20px]'>

@@ -16,13 +16,13 @@ const Cta = () => {
     return (
 
         <div className='text-center relative mb-[100px]'>
-            <div><img className='cta-show top-[-9.5%] left-[46%] absolute' src={Scribble} alt="" /></div>
-            <div><img className='orna-hidden top-[56.7%] w-[373px] absolute' src={home} alt="" /></div>
-            <div><img className='orna-hidden top-[13%] left-[80%] w-[373px] absolute' src={play} alt="" /></div>
-            <div><img className='orna-hidden top-[46%] left-[6%] absolute' src={smedium} alt="" /></div>
-            <div><img className='orna-hidden top-[46%] left-[0.01%] absolute' src={slarge} alt="" /></div>
-            <div><img className='orna-hidden top-[43%] left-[5%] absolute' src={ssmall} alt="" /></div>
-            <div><img className='orna-hidden top-[56%] left-[53%] absolute' src={sbtn} alt="" /></div>
+            <div><img className='cta-show top-[-9.5%] left-[46%] md:left-[43%] absolute' src={Scribble} alt="" /></div>
+            <div><img className='orna-hidden top-[56.7%] w-[373px] md:w-[200px] lg:w-[273px] md:top-[76.7%] lg:top-[68.3%] absolute' src={home} alt="" /></div>
+            <div><img className='orna-hidden top-[13%] left-[80%] md:w-[200px] lg:w-[200px] md:left-[74%] md:top-[53.2%] lg:top-[53.1%] lg:left-[79.7%] w-[373px] absolute' src={play} alt="" /></div>
+            <div><img className='orna-hidden top-[46%] left-[6%] md:hidden lg:hidden absolute' src={smedium} alt="" /></div>
+            <div><img className='orna-hidden top-[46%] left-[0.01%] md:top-[55%] md:left-[10%] lg:left-[10%] absolute' src={slarge} alt="" /></div>
+            <div><img className='orna-hidden top-[43%] left-[5%] md:hidden lg:hidden absolute' src={ssmall} alt="" /></div>
+            <div><img className='orna-hidden top-[56%] left-[53%] md:left-[57%] lg:left-[57%] absolute' src={sbtn} alt="" /></div>
 
             <div className='cta-m pt-[143px] mb-[140px]'>
                 <span className='border-[1px] border-[#CD4631] py-[3px] px-[6px] rounded-md font-[700] text-[14px] text-[#CD4631]'>BETA</span>

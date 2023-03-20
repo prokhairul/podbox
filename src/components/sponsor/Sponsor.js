@@ -19,10 +19,10 @@ const Sponsor = () => {
 
     return (
         <div className='relative'>
-            <div><img className='orna-show top-[-20.5%] left-[46%] absolute' src={Scribble} alt="" /></div>
-            <div className='orna-hidden top-[-7%] left-[30%] absolute'> <img src={Sparkel} alt="" /> </div>
-            <div><img className='orna-hidden top-[15%] left-[86.5%] absolute z-[-1]' src={star} alt="" /></div>
-            <div><img className='orna-hidden top-[79%] left-[6%] absolute z-[-1]' src={vector} alt="" /></div>
+            <div><img className='orna-show top-[-19.8%] left-[46%] md:left-[43%] md:top-[-12.5%] lg:top-[-19%] absolute' src={Scribble} alt="" /></div>
+            <div className='orna-hidden top-[-7%] left-[30%] md:top-[-4%] md:left-[2%] lg:left-[12%] absolute'> <img src={Sparkel} alt="" /> </div>
+            <div><img className='orna-hidden top-[15%] left-[76.5%] md:top-[9.5%] md:hidden lg:hidden absolute z-[-1]' src={star} alt="" /></div>
+            <div><img className='orna-hidden top-[79%] left-[15%] md:hidden lg:hidden absolute z-[-1]' src={vector} alt="" /></div>
 
             <div className='container mx-auto'>
                 <div className='memberh2 text-center mt-[140px]'>
@@ -30,9 +30,9 @@ const Sponsor = () => {
                     <p className=''>Get exclusive episodes, merch and more</p>
                 </div>
 
-                <div className='sponsor-main grid grid-cols-3 gap-[20px]'>
+                <div className='sponsor-main grid grid-cols-3 md:grid-cols-2 gap-[20px] lg:gap-[10px] md:pl-[10px] md:pr-[10px] lg:pl-[10px] lg:pr-[10px] pl-[10px] pr-[10px]'>
                     {members.map((item, i) => (
-                        <div key={i} className='sp-mar-control mb-[140px]'>
+                        <div key={i} className='sp-mar-control mb-[140px] md:mb-[0px]'>
                             <div className='border-2 border-[#000000] rounded-lg bg-white'>
                                 <div className='flex items-center'>
                                     <h2 className='p-left font-[700] text-[36.65px] leading-[140%] tracking-[-0.02em] pt-[60px] pl-[40px] pr-[40px] z-40'>{item.short_name}</h2>

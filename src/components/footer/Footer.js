@@ -32,7 +32,7 @@ const Footer = () => {
     }, []);
 
     return (
-        <div className='container mx-auto relative'>
+        <div className='container mx-auto relative md:pr-[10px] md:pl-[10px] lg:pr-[10px] lg:pl-[10px] pl-[10px] pr-[10px]'>
             <button
                 className={`scroll-top-button ${showScroll ? "show" : "hide"}`}
                 onClick={handleClick}
@@ -65,7 +65,7 @@ const Footer = () => {
 
                 <div>
                     <p className='font-[500] text-[16px] leading-[160%] text-[#4D4D4D] mb-[29px]'>Listen to episodes on your fav platform:</p>
-                    <div className='flex gap-[38.5px] mb-[60px] eip-img'>
+                    <div className='flex gap-[38.5px] md:gap-[15px] mb-[60px] eip-img'>
                         <a href="#"><img className='w-[122] h-[22px]' src={google} alt="" /></a>
                         <a href="#"><img className='w-[80px] h-[22px]' src={spotify} alt="" /></a>
                         <a href="#"><img className='w-[94px] h-[22px]' src={youtube} alt="" /></a>

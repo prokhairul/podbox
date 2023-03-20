@@ -236,7 +236,7 @@
 }
 
 .sponsor-card-main {
-    width: 700px;
+    width: 570px;
     height: 245px;
     align-items: center;
     margin: auto;
@@ -377,19 +377,24 @@ textarea {
         font-size: 56px;
         line-height: 160%;
     }
+
     .about-main-middle h3 {
         font-size: 48px;
     }
+
     .about-main-middle p {
         font-size: 14px;
     }
+
     .about-main-middle {
         padding-bottom: 60px;
     }
+
     .ab-card-d {
         width: 340px;
         height: 200px;
     }
+
     .about-main-card {
         flex-direction: column;
         position: relative;
@@ -399,61 +404,74 @@ textarea {
         padding-left: 10px;
         padding-right: 10px;
     }
+
     .a-p-m-title h2 {
         font-size: 40px;
     }
+
     .a-p-m-title p {
         font-size: 20px;
         margin-top: 15px;
     }
+
     .a-p-m-title {
         margin-top: 80px;
     }
+
     .about-his-h2 {
         font-size: 30px;
         margin-bottom: 30px;
     }
+
     .about-his-p {
         flex-direction: column;
         margin-bottom: 50px;
 
     }
+
     .a-his-w {
         width: 100%;
     }
-    .host-main{
+
+    .host-main {
         flex-direction: column;
     }
-    .host-main-w{
+
+    .host-main-w {
         width: 100%;
     }
 
-    .host-main-w img{
+    .host-main-w img {
         width: 270px;
         height: 200px;
     }
-    .founder-card-txt{
+
+    .founder-card-txt {
         margin-top: 0px;
     }
-    .founder-card-txt p{
+
+    .founder-card-txt p {
         padding-right: 0px;
     }
+
     .founder-card-txt h3 {
         font-size: 12px;
         padding-left: 10px;
-    } 
+    }
+
     .founder-card-txt h2 {
         font-size: 20px;
         padding-left: 10px;
         margin-bottom: 10px;
     }
+
     .founder-card-txt p {
         font-size: 12px;
         padding-left: 10px;
         margin-bottom: 10px;
     }
-    
-    .founder-padding{
+
+    .founder-padding {
         padding-bottom: 100px;
     }
 
@@ -468,7 +486,7 @@ textarea {
         font-size: 45px;
         padding-top: 50px;
     }
-    
+
     .our-s-txt p {
         font-size: 18px;
         line-height: 120%;
@@ -480,10 +498,96 @@ textarea {
         padding-top: 50px;
         margin-bottom: 10px;
     }
-    
+
     .g-i-t p {
         font-size: 18px;
         margin-bottom: 40px;
+    }
+}
+
+
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    .heroimg1 {
+        width: 25%;
+        top: 30% !important;
+    }
+
+    .about-main-card {
+        top: 98%;
+        left: 9%;
+    }
+
+    .ab-card-d {
+        width: 200px;
+        height: 100px;
+    }
+
+    .ab-card-d h2 {
+        font-size: 40px;
+        margin-bottom: 5px;
+    }
+
+    .about-main-middle p {
+        width: 50%;
+    }
+
+    .host-main-w img {
+        max-width: 130px;
+        height: 284px;
+    }
+
+    .founder-card-txt {
+        margin-top: 0px;
+    }
+
+    .md-btn-cls {
+        margin-left: 25px;
+    }
+
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+
+    .heroimg1 {
+        width: 25%;
+        top: 30% !important;
+    }
+
+    .sponsor-card-main {
+        width: 470px;
+    }
+
+    .about-main-card {
+        top: 92%;
+        left: 9%;
+    }
+
+    .ab-card-d {
+        width: 260px;
+        height: 160px;
+    }
+
+    .ab-card-d h2 {
+        font-size: 40px;
+        margin-bottom: 5px;
+    }
+
+    .about-main-middle p {
+        width: 50%;
+    }
+
+    .host-main-w img {
+        max-width: 130px;
+        height: 230px;
+    }
+
+    .founder-card-txt {
+        margin-top: 0px;
+    }
+
+    .md-btn-cls {
+        margin-left: 25px;
     }
 
 }

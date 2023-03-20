@@ -20,7 +20,7 @@ const Covers = () => {
 
     return (
         <div className='main-cards container'>
-            <div className='gap-10 mt-[120px]'>
+            <div className='gap-10 mt-[120px] md:pl-[10px] md:pr-[10px]'>
 
                 <Swiper
 
@@ -38,11 +38,22 @@ const Covers = () => {
                         },
                         // when window width is >= 480px
                         480: {
-                            slidesPerView: 2,
+                            slidesPerView: 1,
                             spaceBetween: 20
                         },
                         // when window width is >= 640px
                         640: {
+                            slidesPerView: 1,
+                            spaceBetween: 30
+                        },
+
+                        // when window width is >= 768px
+                        768: {
+                            slidesPerView: 2,
+                            spaceBetween: 30
+                        },
+                        // when window width is >= 768px
+                        992: {
                             slidesPerView: 4,
                             spaceBetween: 30
                         }
@@ -53,7 +64,7 @@ const Covers = () => {
                 >
                     {cover.map((list, index) => (
                         <SwiperSlide key={index} >
-                            <div className='relative main-card'>
+                            <div className='relative main-card lg:pl-[10px] lg:pr-[10px]'>
                                 <a href="#"><img src={list.img} alt="Cover Image" /></a>
                                 <span className='top-[100%] absolute img-title'>{list.title}</span>
                             </div>
@@ -65,9 +76,9 @@ const Covers = () => {
             <div className='mt-[120px]'>
                 <div className='sponsor-border flex items-center justify-center'>
                     <h2>Sponsored by:</h2>
-                    <img src={sponsor1} alt="" />
-                    <img src={sponsor2} alt="" />
-                    <img src={sponsor3} alt="" />
+                    <img className='md:w-[28%] sm:w-[10px]' src={sponsor1} alt="" />
+                    <img className='md:w-[28%]' src={sponsor2} alt="" />
+                    <img className='md:w-[28%]' src={sponsor3} alt="" />
                 </div>
             </div>
         </div>

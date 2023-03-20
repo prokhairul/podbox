@@ -45,7 +45,7 @@ const ArticleContent = () => {
             <div>
                 <section className='bg-[#F7EDE8] pb-[50px]'>
                     <div>
-                        <div className='heroimg1 '><img src={hroimg1} alt="" /></div>
+                        <div className='heroimg1'><img src={hroimg1} alt="" /></div>
                         <div className='heroimg2'><img src={hroimg2} alt="" /></div>
 
                         <div className='hero-middle'>

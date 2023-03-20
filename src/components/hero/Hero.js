@@ -6,7 +6,7 @@ import hroimg2 from '../../images/elements/hero-right.png'
 const Hero = () => {
     return (
         <div>
-            <div className='heroimg1 '><img  src={hroimg1} alt="" /></div>
+            <div className='heroimg1 md:w-[20%] lg:w-[25%]'><img  src={hroimg1} alt="" /></div>
             <div className='heroimg2'><img  src={hroimg2} alt="" /></div>
 
             <div className='hero-middle'>

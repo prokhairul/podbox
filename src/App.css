@@ -25,14 +25,3 @@ body {
 ::-webkit-scrollbar-thumb:hover {
     background: -webkit-linear-gradient(45deg, #f3c5bd 0%, #e86c57 0%, #cd4631 0%, #ff6600 75%, #c72200 100%);
 }
-
-
-
-
-
-/* Responsive Design Pattern  */
-
-/* @media screen and (max-width: 768px) {} */
-
-
-/* @media only screen and (min-width: 845px) and (max-width: 911px) {} */

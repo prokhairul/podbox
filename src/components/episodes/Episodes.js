@@ -17,8 +17,8 @@ const Episodes = () => {
 
     return (
         <div className='relative container mx-auto'>
-            <img className='ep-orna-one top-[16%] left-[94%] absolute' src={emiorna} alt="" />
-            <img className='ep-orna top-[-6.4%] left-[46%] absolute' src={Scribble} alt="" />
+            <img className='ep-orna-one top-[16%] left-[94%] lg:hidden absolute' src={emiorna} alt="" />
+            <img className='ep-orna top-[-5.6%] left-[46%] md:top-[-4.5%] md:left-[43%] absolute lg:top-[-5%]' src={Scribble} alt="" />
             <img src="" alt="" />
 
             <div className='epi-text'>
@@ -27,7 +27,7 @@ const Episodes = () => {
             </div>
 
 
-            <div className='epi-card-main grid grid-cols-3 gap-[20px] mb-[100px]'>
+            <div className='epi-card-main grid grid-cols-3 md:grid-cols-2 lg:grid-cols-2 md:gap-[10px] gap-[20px] mb-[100px] md:pr-[10px] md:pl-[10px] lg:pr-[10px] lg:pl-[10px] pr-[10px] pl-[10px]'>
                 {episode.map((list, index) => (
                     <div key={index} className='epi-card border-2 border-[#000000] rounded-lg p-[10px]'>
 

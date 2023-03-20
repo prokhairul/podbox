@@ -28,18 +28,12 @@
 }
 
 .about-vector {
-    position: relative;
-    display: inline-block;
-    top: 45%;
-    right: 4%;
+display: none;
 
 }
 
 .about-star {
-    position: relative;
-    display: inline-block;
-    left: 87%;
-    bottom: 20%;
+    display: none;
 }
 
 .scribble1 {
@@ -77,11 +71,12 @@
     }
 
     .best-daily h2 {
-        font-size: 20px;
+        font-size: 16px;
         padding: 0px 20px;
         line-height: 180%;
         margin-top: 30px;
     }
+
 
     .about-2nd {
         top: 0;
@@ -93,7 +88,30 @@
     }
 
     .about-2nd-last .span2 {
-        font-size:10px;
+        font-size: 10px;
     }
 
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    .about-star {
+        left: 80%;
+        top: -15%;
+    }
+
+    .about-vector {
+        display: none;
+    }
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+
+    .about-vector {
+        display: none;
+    }
+
+    .about-star {
+        left: 85%;
+        top: -18%;
+    }
 }

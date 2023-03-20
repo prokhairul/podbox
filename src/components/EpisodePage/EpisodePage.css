@@ -101,7 +101,7 @@
 
 .filter-btn ul {
     display: flex;
-    gap: 140px;
+    gap: 100px;
 }
 
 .filter-btn ul li:hover {
@@ -200,4 +200,184 @@
     }
 
 
+}
+
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    .epiallimg1 {
+        display: none;
+    }
+
+    .epiallimg2 {
+        display: none;
+    }
+
+    .epiall-img-part p {
+        font-size: 12px;
+    }
+
+    .epiall-img-part img {
+        border-radius: 10px;
+        margin-bottom: 80px;
+        box-shadow: 6px 6px 0px rgba(0, 0, 0, 0.25);
+    }
+
+
+    .epi-all-epi-no h3 {
+        font-size: 14px;
+    }
+
+    .epi-all-epi-no h4 {
+        font-size: 14px;
+    }
+
+    .epi-all-main-text h2 {
+        font-size: 22px;
+    }
+
+
+    .epi-all-main-text p {
+        font-size: 13px;
+    }
+
+
+    .epi-all-main-text {
+        padding-left: 20px;
+        padding-right: 10px;
+    }
+
+    .epi-page-btn {
+        width: 260px;
+        font-size: 12px;
+    }
+
+    .a-page-btn-two {
+        width: 150px;
+    }
+
+    .epi-date-txt p {
+        font-size: 12px;
+    }
+
+    .filter-btn {
+        font-style: normal;
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 160%;
+        color: #4D4D4D;
+    }
+
+    .filter-btn ul {
+        display: flex;
+        gap: 35px;
+    }
+
+    .epiall-img-part {
+        padding-left: 10px;
+    }
+
+    .epiall-img-part img {
+        margin-bottom: 40px;
+    }
+
+    .epi-card {
+        margin-right: 10px;
+        margin-left: 10px;
+    }
+
+    .epi-card-main {
+        column-gap: 0.125rem;
+    }
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+    .epiallimg1 {
+        display: none;
+    }
+
+    .epiallimg2 {
+        display: none;
+    }
+
+    .epiall-img-part p {
+        font-size: 12px;
+    }
+
+    .epiall-img-part img {
+        border-radius: 10px;
+        margin-bottom: 80px;
+        box-shadow: 6px 6px 0px rgba(0, 0, 0, 0.25);
+    }
+
+
+    .epi-all-epi-no h3 {
+        font-size: 14px;
+    }
+
+    .epi-all-epi-no h4 {
+        font-size: 14px;
+    }
+
+    .epi-all-main-text h2 {
+        font-size: 22px;
+    }
+
+
+    .epi-all-main-text p {
+        font-size: 13px;
+    }
+
+
+    .epi-all-main-text {
+        padding-left: 20px;
+        padding-right: 10px;
+    }
+
+    .epi-page-btn {
+        width: 260px;
+        font-size: 12px;
+    }
+
+    .a-page-btn-two {
+        width: 150px;
+    }
+
+    .epi-date-txt p {
+        font-size: 12px;
+    }
+
+    .filter-btn {
+        font-style: normal;
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 160%;
+        color: #4D4D4D;
+    }
+
+    .filter-btn ul {
+        display: flex;
+        gap: 35px;
+    }
+
+    .epiall-img-part {
+        padding-left: 10px;
+    }
+
+    .epiall-img-part img {
+        margin-bottom: 40px;
+    }
+
+    .epi-card {
+        margin-right: 10px;
+        margin-left: 10px;
+    }
+
+    .epi-card-main {
+        column-gap: 0.125rem;
+    }
+
+    .filter-btn ul {
+        display: flex;
+        gap: 60px;
+    }
 }

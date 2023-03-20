@@ -89,6 +89,7 @@
 
     .epi-text h2 {
         font-size: 40px;
+        text-align: center !important;
     }
 
     .epi-text p {
@@ -122,8 +123,15 @@
         margin-left: 0px;
     }
 
-    .epi-text{
+    .epi-text {
         padding-top: 100px;
+    }
+
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    .ep-orna-one {
+        display: none;
     }
 
 }
